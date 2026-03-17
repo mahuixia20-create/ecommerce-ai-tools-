@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AI 电商工具</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>AI 电商工具</h1>
+
+<div class="box">
+<h2>AI翻译（中文 → 德语）</h2>
+<textarea id="translateInput" placeholder="输入中文"></textarea>
+<button onclick="translateText()">生成翻译</button>
+<p id="translateOutput"></p>
+</div>
+
+<div class="box">
+<h2>OTTO标题生成</h2>
+<input id="productName" placeholder="输入产品名称">
+<button onclick="generateTitle()">生成标题</button>
+<p id="titleOutput"></p>
+</div>
+
+<div class="box">
+<h2>五点卖点生成</h2>
+<input id="featureInput" placeholder="输入产品特点">
+<button onclick="generateFeatures()">生成五点</button>
+<p id="featureOutput"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
